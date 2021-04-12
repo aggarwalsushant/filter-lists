@@ -1,0 +1,148 @@
+# Courses
+linkedin.com##:xpath(.//div[contains(@data-id, 'urn:li:lyndaCourse')])
+
+# Sponsored posts (old version) - Kills promoted jobs too. I want that so disabling it
+#linkedin.com##:xpath(//*[(text()[contains(.,'Promoted')])]/../../../..)
+
+# Sponsored posts (old version) - Kills promoted jobs too. I want that so disabling it
+#linkedin.com##:xpath(//*[(text()[contains(.,'Jobs recommended for you')])]/../../../../../../..)
+
+#www.linkedin.com###voyager-feed
+linkedin.com#?#.feed-shared-update:-abp-contains(Promoted)
+linkedin.com##.ad-banner
+linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)
+linkedin.com##iframe[src="about:blank"]
+
+! 2021-04-06 https://www.linkedin.com
+www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##.jobs-home-galapagos-promo-board
+www.linkedin.com##.feed-shared-promo
+
+! Ad Banner
+linkedin.com##.ad-banner-container
+
+! Navigation - Try Premium for Free
+linkedin.com##.nav-item__try-premium
+
+! Homepage T - Like article / Like and comment
+#linkedin.com##LI.member-comment-share
+#linkedin.com##LI.member-like-share
+#linkedin.com##LI.member-like-poncho-post
+
+! Homepage Feed - People like you are watching
+linkedin.com##LI.lyndaCourse-singleton
+
+! Homepage Feed - Is now following
+linkedin.com##LI.member-follow-company
+
+! Homepage Feed - People in your network have new connections
+linkedin.com##LI.many-members-connect-members-rollup
+
+! Homepage Feed - Sponsored Updates
+linkedin.com##LI.linkedin-sponsor
+
+! Homepage Feed - Reconnect with your colleagues
+linkedin.com##OL.promo
+
+! Homepage Feed - Influencers / Recommended
+linkedin.com##LI.people-follow-recommend
+linkedin.com##LI.people-connect-recommend
+
+! Homepage Feed - Now Following
+linkedin.com##LI.member-people-follow-member
+linkedin.com##LI.member-follow-channel
+linkedin.com##LI.member-follow-company-digest
+
+! Homepage Feed - Joined group
+linkedin.com##LI.member-join-group
+
+! Homepage Feed - Pulse
+linkedin.com##LI.linkedin-recommend-pulse
+
+! Homepage Feed - Jobs recommended for you
+#linkedin.com##.jymbii-update
+
+! Homepage Feed - People You May Know
+linkedin.com##LI.linkedin-recommend-pymk
+
+! Homepage Sidebar - People You May Know
+linkedin.com##LI#pymk-container
+linkedin.com##LI.props-container
+
+! Homepage Sidebar - You Recently Visited
+linkedin.com##DIV#recent-activities-widget
+
+! Homepage Sidebar - Your LinkedIn Network
+#linkedin.com##DIV#network-stat-widget
+
+! Homepage Sidebar - Jobs You May Be Interested In
+#linkedin.com##DIV#jobsForYou
+
+! Homepage Sidebar - Companies You May Want To Follow
+linkedin.com##DIV#companiesForYou
+
+! Homepage Sidebar - Groups You May Like
+linkedin.com##DIV#groupsForYou
+
+! Homepage Sidebar - Ads
+linkedin.com##LI.ad-container
+linkedin.com##DIV#topTextAd
+
+! Homepage Sidebar - Upsell
+linkedin.com##DIV.wvmp-upsell
+
+! Homepage Sidebar - Notify your network?
+#linkedin.com##DIV#edit-notify-network
+
+! Homepage Sidebar - Add new skills with these courses
+linkedin.com##DIV#course-recommendations
+
+! View Profile - People also viewed
+linked.com##DIV#siteflow-widget-next.snug-fit
+
+! People You May Know - Hide non-members
+linkedin.com##DIV#pymk_cards_container LI.card.guest
+
+! Sidebar - Footer
+linkedin.com##DIV#rr-footer
+linkedin.com##LI.sidebar-footer-container
+
+! Sidebar - How You’re Connected - Upgrade
+linkedin.com##DIV#annotations-2
+
+! Upsell Premium
+linkedin.com##DIV.upsell
+linkedin.com##.premium-upsell-link
+
+! Upsell Company Insights
+linkedin.com##DIV#insights-upsell
+
+! Jobs - See jobs where you'd be a top applicant
+linkedin.com##.jymbii-top-applicant-jobs-upsell
+
+! Jobs - Get ahead with Premium Career
+linkedin.com##.jobs-upsell
+
+! Let recruiters know that you're open to new opportunities
+linkedin.com##LI.ic-upsell
+
+! Get ahead with Job Seeker Premium
+linkedin.com##DIV.fast-growing-companies-upsell
+
+! Privately tell recruiters you are open to new opportunities
+! Get ahead with Job Seeker Premium
+linkedin.com##SECTION.right-rail-upsell
+
+linkedin.com##DIV.premium-insights
+linkedin.com##DIV.feed-shared-promo
+
+! See how you compare to the competition
+linkedin.com##DIV.insights-upsell-premium-button-container
+! Try Premium for free
+linkedin.com##DIV.insights-upsell-value-description-container
+
+! People You May Know - Invite Your Contacts
+linkedin.com##LI.pymk-card.promo
+
+! Remove further sponsored 
+linkedin.com##[class*='--is-sponsored']
