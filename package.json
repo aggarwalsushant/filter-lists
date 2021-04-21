@@ -4,7 +4,7 @@
   "description": "Cleansing filter lists for privacy focussed, cleaner and safer browsing experience on the internet.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
