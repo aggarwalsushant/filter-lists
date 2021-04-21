@@ -1,0 +1,24 @@
+{
+  "name": "filter-lists",
+  "version": "1.0.0",
+  "description": "Cleansing filter lists for privacy focussed, cleaner and safer browsing experience on the internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aggarwalsushant/filter-lists.git"
+  },
+  "author": "gaur_piyush@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aggarwalsushant/filter-lists/issues"
+  },
+  "homepage": "https://github.com/aggarwalsushant/filter-lists#readme",
+  "dependencies": {
+    "i": "^0.3.6",
+    "merge-files": "^0.1.2",
+    "npm": "^7.10.0"
+  }
+}
