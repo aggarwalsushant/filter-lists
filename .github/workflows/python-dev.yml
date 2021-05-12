@@ -23,6 +23,7 @@ jobs:
         python-version: 3.9
     - name: Run filter combiner to combine all files
       run: |
+        print(os.getcwd())
         python ./workers/FilterCombiner.py
     - name: Download output file (CustomFiltersSA.txt)
       uses: actions/upload-artifact@v2
