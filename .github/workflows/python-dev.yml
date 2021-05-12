@@ -26,6 +26,9 @@ jobs:
     - name: Run filter combiner to combine all files
       run: |
         python workers/FilterCombiner.py
-    - name: Test with pytest
-      run: |
-        pytest
+    - name: Download output file (CustomFiltersSA.txt)
+      uses: actions/upload-artifact@v2
+      with:
+        name: download combined filters text file
+        path: |
+          CustomFiltersSA.txt
