@@ -7,7 +7,7 @@ linkedin.com##:xpath(.//div[contains(@data-id, 'urn:li:lyndaCourse')])
 # Sponsored posts (old version) - Kills promoted jobs too. I want that so disabling it
 #linkedin.com##:xpath(//*[(text()[contains(.,'Jobs recommended for you')])]/../../../../../../..)
 
-#www.linkedin.com###voyager-feed
+!www.linkedin.com###voyager-feed
 linkedin.com#?#.feed-shared-update:-abp-contains(Promoted)
 linkedin.com##.ad-banner
 linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)

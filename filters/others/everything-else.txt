@@ -1,5 +1,4 @@
-!__________________________ News Ads __________________________
-!https://timesofindia.indiatimes.com/
+#__________________________ News Ads __________________________
 timesofindia.indiatimes.com##.pt0.swdgt.widget.clearfix
 timesofindia.indiatimes.com##.clearfix.fnews.widget
 timesofindia.indiatimes.com##.entrmnt-wdgt.clearfix
@@ -23,7 +22,7 @@ www.thehindu.com##.entrySubs
 feedly.com###topHeaderBarFX
 feedreader.com##.new-post-notice
 
-!__________________________ Cricket Sites Ads __________________________
+#__________________________ Cricket Sites Ads __________________________
 www.cricbuzz.com##.cb-col-rt.cb-col-33.cb-col
 www.espncricinfo.com##.sub-module-news.sub-module
 www.espncricinfo.com##.mediaList--highlights.mediaList.no-thumb.top-highlights.sub-module
@@ -31,15 +30,15 @@ mylivecricket.live##img
 mylivecricket.live##a
 mylivecricket.live###adcode
 
-!__________________________ Job Sites Ads __________________________
+#__________________________ Job Sites Ads __________________________
 www.hirist.com###learngrow
 www.hirist.com##.hidden-sm.hidden-xs.bannerspace.pull-left.col-xs-9-5
 www.naukri.com##.ppContainer
 www.indgovtjobs.in###g207
 
-!__________________________ Other sites Ads __________________________
+#__________________________ Other sites Ads __________________________
 jsfiddle.net###keep-us-running
 stackblitz.com###sponsad-wrapper
 
-!__________________________ Website annoyances __________________________
+#__________________________ Website annoyances __________________________
 chocolatey.org###cookieNoticeAlert

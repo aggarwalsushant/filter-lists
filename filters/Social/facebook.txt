@@ -1,19 +1,4 @@
-!__________________________ Social Media Ads & Tracking __________________________
-! following 6 lines stops FB tracking activity on all websites other than FB, This Concept can be used to restrict your privacy exposure for other "ubiquitous websites" as well.
-* facebook.com * block
-* facebook.net * block
-* fbcdn.net * block
-facebook.com facebook.com * noop
-facebook.com facebook.net * noop
-facebook.com fbcdn.net * noop
-||facebook.com/ajax/mercury/change_read_status.php$xmlhttprequest
-
-!The same sort of dynamic filtering rules can be used for whatever sites for which you still would want Facebook widgets to work:
-!example.com facebook.com * noop
-!example.com facebook.net * noop
-!example.com fbcdn.net * noop
-
-! Clean sponsored content from feed
+# Clean sponsored content from feed
 facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc

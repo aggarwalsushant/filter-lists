@@ -1,5 +1,5 @@
-!__________________________ Social Media Ads & Tracking __________________________
-! following 6 lines stops FB tracking activity on all websites other than FB, This Concept can be used to restrict your privacy exposure for other "ubiquitous websites" as well.
+#__________________________ Social Media Ads & Tracking __________________________
+# following 6 lines stops FB tracking activity on all websites other than FB, This Concept can be used to restrict your privacy exposure for other "ubiquitous websites" as well.
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
@@ -13,7 +13,7 @@ facebook.com fbcdn.net * noop
 !example.com facebook.net * noop
 !example.com fbcdn.net * noop
 
-!__________________________ Google & Youtube Ads __________________________
+#__________________________ Google & Youtube Ads __________________________
 # Zero Ads in Youtube Videos | No watermarks, Cards, Info. Nothing! Zilch! Nada!
 ||youtube.com/annotations_
 youtube.com##.ytp-ce-element-show
@@ -37,8 +37,7 @@ youtube.com###chat
 # generic sponsored content eliminator
 ~google.com##div.result[id*="sponsored"]
 
-
-!__________________________ Email Sites Ads __________________________
+#__________________________ Email Sites Ads __________________________
 outlook.live.com##._29KqToSCcntvfbDv_3xuuh > ._1_ag99JsBHxI6S4FP5ayPv
 outlook.live.com##._1ZEdP0-JdMOVtjBb5ZcM6M
 outlook.live.com##._2F6rWwLisyawGGg32JOcop
