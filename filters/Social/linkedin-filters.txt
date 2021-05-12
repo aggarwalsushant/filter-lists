@@ -13,7 +13,7 @@ linkedin.com##.ad-banner
 linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)
 linkedin.com##iframe[src="about:blank"]
 
-! 2021-04-06 https://www.linkedin.com
+! https://www.linkedin.com
 www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##.jobs-home-galapagos-promo-board
 www.linkedin.com##.feed-shared-promo
