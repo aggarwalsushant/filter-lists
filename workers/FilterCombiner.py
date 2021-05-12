@@ -1,11 +1,8 @@
 import os
 
-# os.chdir("C:\\Users\\su003ag\\Sushant\\Learn\\filter-lists")
-# cwd = os.getcwd()
-# print("current working dir: ", cwd)
 print('Starting filter merging...')
 
-result= open("result.txt","w+")
+result= open("CustomFiltersSA.txt","w+")
 
 for dirpath, dirnames, files in os.walk('./filters'):
     for file in files:
