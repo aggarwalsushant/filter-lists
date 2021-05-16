@@ -16,15 +16,19 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - name: Checking out code from repo
+      uses: actions/checkout@v2
+  
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+    
     - name: Run filter combiner to combine all files
       run: |
         ls
         python ./workers/FilterCombiner.py
+    
     - name: Download output file (CustomFiltersSA.txt)
       uses: actions/upload-artifact@v2
       with:
