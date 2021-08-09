@@ -39,6 +39,15 @@ www.indgovtjobs.in###g207
 #__________________________ Other sites Ads __________________________
 jsfiddle.net###keep-us-running
 stackblitz.com###sponsad-wrapper
+@@||t.castle.io
 
 #__________________________ Website annoyances __________________________
 chocolatey.org###cookieNoticeAlert
+
+#__________________________ Email website ads/annoyances __________________________
+! Clean outlook email ads
+outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
+outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
+
+! Clean Yahoomail ads
+mail.yahoo.com###shellcontent:style(right: 0px !important;)

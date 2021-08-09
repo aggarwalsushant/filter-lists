@@ -1,64 +1,48 @@
-! 2021-05-21 https://teams.microsoft.com
+! unbreak teams.microsoft.com
 @@||login.microsoftonline.com^$subdocument,domain=microsoft.com
 @@||login.microsoftonline.com^$xhr,domain=microsoft.com
 
-! 2021-05-24 https://login.microsoftonline.com
+! unbreak microsoft login for teams
 !@@||login.microsoftonline.com^$xhr,1p
 @@||login.microsoftonline.com^$xhr,domain=login.microsoftonline.com
 
-@@||t.castle.io
-
-!facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(m)):not(:has-text(M)):not(:has-text(h)):not(:has-text(:)):not(:has-text(J))))
-!facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
-!facebook.com###pagelet_ego_pane
-!facebook.com###pagelet_video_home_watch_list_rhc
-!facebook.com##div[id=hyperfeedstory_id]:has(a[role=button]:has(> b class:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(m)):not(:has-text(M)):not(:has-text(h)):not(:has-text(:)):not(:has-text(J))))
-
-! 2021-06-28 https://outlook.live.com
-outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
-outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
-
-mail.yahoo.com###shellcontent:style(right: 0px !important;)
-
-! 2021-07-25 https://medium.com
+! Unbreak medium website
 @@||cdn-client.medium.com/lite/static/*$script,1p
 @@||miro.medium.com^$image,1p
 @@||cdn-images-1.medium.com/*$image,1p
 @@||cdn-static-1.medium.com^$script,1p
 @@||cdn-static-1.medium.com^$stylesheet,1p
-! 2021-07-29
 @@||cdn-client.medium.com/lite/static/js/*$script
 @@||miro.medium.com/*$image
 
-! 2021-07-25 https://www.gsmarena.com
+! Unbreak gsmarena
 @@||fdn.gsmarena.com.cdn.cloudflare.net^$image,domain=www.gsmarena.com
 @@||fdn2.gsmarena.com.cdn.cloudflare.net^$image,domain=www.gsmarena.com
 @@||fdn.gsmarena.com.cdn.cloudflare.net^$stylesheet,domain=www.gsmarena.com
 @@||fdn.gsmarena.com.cdn.cloudflare.net^$script,domain=www.gsmarena.com
 @@||fdn.gsmarena.com.cdn.cloudflare.net^$font,domain=www.gsmarena.com
 
-! 2021-07-25 https://my.nextdns.io
+! Unbreak nextdns
 @@||cname.vercel-dns.com^$script,domain=my.nextdns.io
 @@||cname.vercel-dns.com^$image,domain=my.nextdns.io
 @@||cname.vercel-dns.com^$xhr,domain=my.nextdns.io
 @@||cname.vercel-dns.com^$stylesheet,domain=my.nextdns.io
 
-! 2021-07-26 https://open.spotify.com
+! Unbreak spotify.com
 @@||open.scdn.co/cdn/build/web-player/*$script,domain=open.spotify.com
 @@||open.scdn.co/cdn/js/*$script,domain=open.spotify.com
 @@||open.scdn.co/cdn/fonts/*$font,domain=open.spotify.com
 
-! 2021-08-04 https://bytes.swiggy.com
+! Unbreak bytes.swiggy.com
 @@||cdn-images-1.medium.com/fit/*$image,domain=bytes.swiggy.com
 @@||cdn-static-1.medium.com^$script,domain=bytes.swiggy.com
 @@||cdn-images-1.medium.com^$image,domain=bytes.swiggy.com
 @@||cdn-static-1.medium.com^$stylesheet,domain=bytes.swiggy.com
 
-! 2021-08-07 https://sourceforge.net
+! Unbreak sourceforge.net
 @@||a.fsdn.com/con/css/sandiego.css$stylesheet,domain=sourceforge.net
 
-! 2021-08-08 https://soundcloud.com
+! Unbreak soundcloud.com
 @@||cf-hls-media.sndcdn.com/playlist/*$xhr,domain=soundcloud.com
 @@||i1.sndcdn.com^$image,domain=soundcloud.com
 @@||cf-hls-media.sndcdn.com/media/*$xhr,domain=soundcloud.com
-
