@@ -46,3 +46,16 @@
 @@||cf-hls-media.sndcdn.com/playlist/*$xhr,domain=soundcloud.com
 @@||i1.sndcdn.com^$image,domain=soundcloud.com
 @@||cf-hls-media.sndcdn.com/media/*$xhr,domain=soundcloud.com
+@@||widget.sndcdn.com^$script,domain=w.soundcloud.com
+
+! Unbreak Tripadvisor
+@@||static.tacdn.com/css2/*$stylesheet,domain=www.tripadvisor.com
+@@||static.tacdn.com/img2/*$image,domain=www.tripadvisor.com
+@@||static.tacdn.com/assets/*$stylesheet,domain=www.tripadvisor.com
+@@||static.tacdn.com/css2/*$font,domain=www.tripadvisor.com
+@@||static.tacdn.com/assets/*$script,domain=www.tripadvisor.com
+@@||media-cdn.tripadvisor.com/media/*$image,domain=www.tripadvisor.com
+
+! Unbreak Cricinfo
+@@||wassets.hscicdn.com/_next/static/*$stylesheet,domain=www.espncricinfo.com
+
