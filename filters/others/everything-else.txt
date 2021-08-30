@@ -49,6 +49,7 @@ chocolatey.org###cookieNoticeAlert
 outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
 outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
 onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com###PROD_OneDrive-Web_SuiteNav_Unknown_HeaderDiamond
 
 ! Clean Yahoomail ads
 mail.yahoo.com###shellcontent:style(right: 0px !important;)
