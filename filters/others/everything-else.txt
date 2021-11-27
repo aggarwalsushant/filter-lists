@@ -40,6 +40,7 @@ www.indgovtjobs.in###g207
 jsfiddle.net###keep-us-running
 stackblitz.com###sponsad-wrapper
 @@||t.castle.io
+octopus.newgistics.com##.MuiDrawer-root.MuiDrawer-docked.DrawerWrapperLayout_drawer__2ur7h
 
 #__________________________ Website annoyances __________________________
 chocolatey.org###cookieNoticeAlert

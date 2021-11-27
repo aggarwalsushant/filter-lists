@@ -59,3 +59,8 @@
 ! Unbreak Cricinfo
 @@||wassets.hscicdn.com/_next/static/*$stylesheet,domain=www.espncricinfo.com
 
+! Unbreak libraries.excalidraw.com
+@@||cname.vercel-dns.com^$stylesheet,domain=excalidraw.com
+@@||cname.vercel-dns.com^$image,domain=excalidraw.com
+@@||cname.vercel-dns.com^$script,domain=excalidraw.com
+@@||cname.vercel-dns.com^$xhr,domain=excalidraw.com
