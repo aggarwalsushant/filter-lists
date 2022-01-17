@@ -41,6 +41,8 @@ jsfiddle.net###keep-us-running
 stackblitz.com###sponsad-wrapper
 @@||t.castle.io
 octopus.newgistics.com##.MuiDrawer-root.MuiDrawer-docked.DrawerWrapperLayout_drawer__2ur7h
+octopus.newgistics.com##.active.ode-nps-survey-popup
+
 
 #__________________________ Website annoyances __________________________
 chocolatey.org###cookieNoticeAlert

@@ -2,6 +2,11 @@
 @@||login.microsoftonline.com^$subdocument,domain=microsoft.com
 @@||login.microsoftonline.com^$xhr,domain=microsoft.com
 
+@@||aadcdn.msftauth.net/ests/2.1/*$xhr,domain=login.microsoftonline.com
+@@||aadcdn.msftauth.net^$script,domain=login.microsoftonline.com
+@@||aadcdn.msftauth.net/shared/*$image,domain=login.microsoftonline.com
+@@||aadcdn.msauth.net^$stylesheet,domain=login.microsoftonline.com
+
 ! unbreak microsoft login for teams
 !@@||login.microsoftonline.com^$xhr,1p
 @@||login.microsoftonline.com^$xhr,domain=login.microsoftonline.com
@@ -64,3 +69,6 @@
 @@||cname.vercel-dns.com^$image,domain=excalidraw.com
 @@||cname.vercel-dns.com^$script,domain=excalidraw.com
 @@||cname.vercel-dns.com^$xhr,domain=excalidraw.com
+
+! Unbreak mint.com images
+@@||images.livemint.com/img/*$image,domain=www.livemint.com
