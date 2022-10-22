@@ -46,5 +46,6 @@ outlook.live.com##._2qPmszDwBfYpF7PO9Mn3KN
 outlook.live.com##._20YsfelFmugQWgNkXdkYaF
 outlook.live.com##._1_ag99JsBHxI6S4FP5ayPv
 outlook.live.com##._33q0KHy2ceHx9Ea1A4VXHj
+outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
 f6mail.rediff.com##.news_ads
 f6mail.rediff.com##.ad_adv_212
