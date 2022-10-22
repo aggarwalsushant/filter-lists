@@ -38,14 +38,7 @@ youtube.com###chat
 ~google.com##div.result[id*="sponsored"]
 
 #__________________________ Email Sites Ads __________________________
-outlook.live.com##._29KqToSCcntvfbDv_3xuuh > ._1_ag99JsBHxI6S4FP5ayPv
-outlook.live.com##._1ZEdP0-JdMOVtjBb5ZcM6M
-outlook.live.com##._2F6rWwLisyawGGg32JOcop
-outlook.live.com##._3_hHr3kfEhbNYRFM5YJxH9
-outlook.live.com##._2qPmszDwBfYpF7PO9Mn3KN
-outlook.live.com##._20YsfelFmugQWgNkXdkYaF
-outlook.live.com##._1_ag99JsBHxI6S4FP5ayPv
-outlook.live.com##._33q0KHy2ceHx9Ea1A4VXHj
 outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
+outlook.live.com##img[alt="Premium Features"]:upward(3)
 f6mail.rediff.com##.news_ads
 f6mail.rediff.com##.ad_adv_212
