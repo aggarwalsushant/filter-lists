@@ -38,7 +38,19 @@ youtube.com###chat
 ~google.com##div.result[id*="sponsored"]
 
 #__________________________ Email Sites Ads __________________________
+! Clean outlook email ads
 outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
 outlook.live.com##img[alt="Premium Features"]:upward(3)
+outlook.live.com##div[aria-label="advertisement"]:upward(3)
+
+!outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
+!outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
+
+onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com###PROD_OneDrive-Web_SuiteNav_Unknown_HeaderDiamond
+
 f6mail.rediff.com##.news_ads
 f6mail.rediff.com##.ad_adv_212
+
+! Clean Yahoomail ads
+mail.yahoo.com###shellcontent:style(right: 0px !important;)
