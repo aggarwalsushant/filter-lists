@@ -42,6 +42,7 @@ youtube.com###chat
 outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
 outlook.live.com##img[alt="Premium Features"]:upward(3)
 outlook.live.com##div[aria-label="advertisement"]:upward(3)
+outlook.live.com##div:has(>div>div>div>div>div>div>div>span:has-text(/Get the latest premium Outlook features/))
 
 !outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
 !outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
