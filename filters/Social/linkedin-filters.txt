@@ -146,3 +146,8 @@ linkedin.com##LI.pymk-card.promo
 
 ! Remove further sponsored 
 linkedin.com##[class*='--is-sponsored']
+
+linkedin.com##.jobs-list-feedback
+linkedin.com##.jobs-search-top-applicant-upsell-card
+linkedin.com##.global-footer-compact
+linkedin.com##.premium-upsell-link--extra-long
