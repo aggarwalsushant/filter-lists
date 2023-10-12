@@ -60,6 +60,12 @@
 @@||static.tacdn.com/css2/*$font,domain=www.tripadvisor.com
 @@||static.tacdn.com/assets/*$script,domain=www.tripadvisor.com
 @@||media-cdn.tripadvisor.com/media/*$image,domain=www.tripadvisor.com
+@@||static.tacdn.com/css2/*$stylesheet,domain=www.tripadvisor.in
+@@||static.tacdn.com/img2/*$image,domain=www.tripadvisor.in
+@@||static.tacdn.com/assets/*$stylesheet,domain=www.tripadvisor.in
+@@||static.tacdn.com/css2/*$font,domain=www.tripadvisor.in
+@@||static.tacdn.com/assets/*$script,domain=www.tripadvisor.in
+@@||media-cdn.tripadvisor.com/media/*$image,domain=www.tripadvisor.in
 
 ! Unbreak Cricinfo
 @@||wassets.hscicdn.com/_next/static/*$stylesheet,domain=www.espncricinfo.com
@@ -72,3 +78,14 @@
 
 ! Unbreak mint.com images
 @@||images.livemint.com/img/*$image,domain=www.livemint.com
+
+! flipkart.com
+@@||rukminim1.flixcart.com/image/*$image,domain=www.flipkart.com
+@@||rukminim1.flixcart.com/flap/*$image,domain=www.flipkart.com
+
+! spotify.com
+@@||open.spotifycdn.com/cdn/*$stylesheet,domain=open.spotify.com
+
+! skyscanner.co.in
+@@||js.skyscnr.com/sttc/*$stylesheet,domain=www.skyscanner.co.in
+@@||js.skyscnr.com^$domain=www.skyscanner.co.in

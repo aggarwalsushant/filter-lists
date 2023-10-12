@@ -46,3 +46,5 @@ octopus.newgistics.com##.active.ode-nps-survey-popup
 
 #__________________________ Website annoyances __________________________
 chocolatey.org###cookieNoticeAlert
+geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
+

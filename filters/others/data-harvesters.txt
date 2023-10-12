@@ -8,6 +8,24 @@ facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 ||facebook.com/ajax/mercury/change_read_status.php$xmlhttprequest
 
+! FB Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+www.m.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! FB Suggested groups
+www.facebook.com##[aria-posinset] [aria-label="See More Groups"][href="/groups/discover/"]:upward([aria-posinset])
+www.m.facebook.com##[aria-posinset] [aria-label="See More Groups"][href="/groups/discover/"]:upward([aria-posinset])
+! FB People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+www.m.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! FB Reels
+www.facebook.com##[aria-posinset] [href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+www.m.facebook.com##[aria-posinset] [href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+www.facebook.com##[aria-posinset] [aria-label="Open reel in Reels Viewer"][href="/reel/"]:upward([aria-posinset])
+www.m.facebook.com##[aria-posinset] [aria-label="Open reel in Reels Viewer"][href="/reel/"]:upward([aria-posinset])
+! :style(border: 5px solid red; width: 50% !important)
+www.facebook.com##div[role="article"]:has(a[href*="/reel/"]):upward(4)
+www.m.facebook.com##div[role="article"]:has(a[href*="/reel/"]):upward(4)
+
 !The same sort of dynamic filtering rules can be used for whatever sites for which you still would want Facebook widgets to work:
 !example.com facebook.com * noop
 !example.com facebook.net * noop
@@ -46,6 +64,10 @@ outlook.live.com##div:has(>div>div>div>div>div>div>div>span:has-text(/Get the la
 outlook.live.com##button:has(>div>div:has-text(/Upgrade for more space/))
 onedrive.live.com##.od-PremiumUpsellBanner
 onedrive.live.com###PROD_OneDrive-Web_SuiteNav_Unknown_HeaderDiamond
+outlook.live.com##div:has(>div>div>span:has-text(/To maximize the space/))
+outlook.live.com##div:has(>button>div>span:has-text(/Upgrade to Microsoft 365 with/))
+outlook.live.com##.LBktY > .GssDD
+outlook.live.com##.Ogqyq
 
 ! Rediffmail ads
 f6mail.rediff.com##.news_ads
@@ -53,3 +75,5 @@ f6mail.rediff.com##.ad_adv_212
 
 ! Yahoomail ads
 mail.yahoo.com###shellcontent:style(right: 0px !important;)
+
+www.linkedin.com##.reusable-search-filters-upsell__container
