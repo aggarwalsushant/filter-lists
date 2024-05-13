@@ -151,3 +151,7 @@ linkedin.com##.jobs-list-feedback
 linkedin.com##.jobs-search-top-applicant-upsell-card
 linkedin.com##.global-footer-compact
 linkedin.com##.premium-upsell-link--extra-long
+
+
+linkedin.com#?#.feed-shared-update-v2:-abp-contains(Suggested)
+linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)
